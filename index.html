@@ -1,0 +1,27 @@
+<!DOCTYPE html>  <html> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>WHITELIST Lightvillage</title> </head> <body> <div class="wrapper"> <form id="namaForm"> <h2>Lightvillage Whitelist</h2> <br>
+<h4 id="error"></h4><div class="input-field"> <input id="namaInput" type="text" required> <label>Enter your character name</label> 
+
+
+</div>  <div class="forget"> <label for="remember"> <input type="checkbox" id="remember"> <p>Remember me</p> </label> </div> <button type="submit">Register</button> <div class="register">  </div> <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </form> </div> </body> </html>
+<h1 id="error"></h1>
+   <style>
+   				@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap"); * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Open Sans", sans-serif; } body { display: flex; align-items: center; justify-content: center; min-height: 100vh; width: 100%; padding: 0 10px; } body::before { content: ""; position: absolute; width: 100%; height: 100%; background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJt6Za15sWvv4KESYB9U_6um_Q-m2WoqqT3gkl6jAa3JINE5DQExxIbtWc&s=10"), #000; background-position: center; background-size: cover; } .wrapper { width: 400px; border-radius: 8px; padding: 30px; text-align: center; border: 1px solid rgba(255, 255, 255, 0.5); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); } form { display: flex; flex-direction: column; } h2 { font-size: 2rem; margin-bottom: 20px; color: #fff; } .input-field { position: relative; border-bottom: 2px solid #ccc; margin: 15px 0; } .input-field label { position: absolute; top: 50%; left: 0; transform: translateY(-50%); color: #fff; font-size: 16px; pointer-events: none; transition: 0.15s ease; } .input-field input { width: 100%; height: 40px; background: transparent; border: none; outline: none; font-size: 16px; color: #fff; } .input-field input:focus~label, .input-field input:valid~label { font-size: 0.8rem; top: 10px; transform: translateY(-120%); } .forget { display: flex; align-items: center; justify-content: space-between; margin: 25px 0 35px 0; color: #fff; } #remember { accent-color: #fff; } .forget label { display: flex; align-items: center; } .forget label p { margin-left: 8px; } .wrapper a { color: #efefef; text-decoration: none; } .wrapper a:hover { text-decoration: underline; } button { background: #fff; color: #000; font-weight: 600; border: none; padding: 12px 20px; cursor: pointer; border-radius: 3px; font-size: 16px; border: 2px solid transparent; transition: 0.3s ease; } button:hover { color: #fff; border-color: #fff; background: rgba(255, 255, 255, 0.15); } .register { text-align: center; margin-top: 30px; color: #fff; } body { background-image: url('https://image.cdn2.seaart.ai/2024-04-05/co7kkmle878c7398is80/2c5dabf5aafa0b5e609586005f867bc120fb8f12_low.webp'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; } @keyframes colorBlink { 0%, 100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; } 33% { color: #00ffee; text-shadow: 0 0 20px #00ffee; } 66% { color: #00ff00; text-shadow: 0 0 20px #00ff00; } } h2 { animation: colorBlink 3s infinite; }
+				h4{
+				color: yellow;
+				}
+				</style>
+
+	
+<script>
+document.getElementById('namaForm').addEventListener('submit', function(e) { e.preventDefault(); let inputNama = document.getElementById('namaInput').value; let regex = /^(?!.*(?:Shelby|Tzy|Pcsi|Shellby|shellby|Tzy|Ronaldo|ronaldo|Messi|messi|Lightvillage|Lightvillage|telor|telur|Telor|telor|rendang|Rendang|Kontol|Memek|psuter|Psuter|Sotot|sotot|Ngentot|Puki|Jemut|Peler|Asu|tzy|dajjal|Skibidi|Yesus|yesus|mewing|skibidi|cool|Petot|petot|Patriot|patriotCool|suki|Suki|Alpha|Sigma|sigma|ambatukam|Ambatukam|Amba|amba|Yanto_Cukurukuk|cold|mantap|Mantap|Samp|samp|penis|Penis|gta|Gta|Fivem|fivem|cleo|Cleo|cheat|Cheat|Monet|monet|gaming|Gaming|Geming|Titit|titit|Ucay|ucay|Ambatron|ambatron|Cold))(?=.*_)(?=(?:[a-z]*[A-Z]){0,2})[a-zA-Z0-9_]+$/; if (!regex.test(inputNama)) { document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Kontol"; } else { let uppercaseCount = inputNama.replace(/[^A-Z]/g, "").length; if (uppercaseCount < 2) { document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Kontol"; } else if (uppercaseCount > 2) { document.getElementById('error').innerText = "⚠️Masukin Nama Yang Bener Ngentot"; } else { let website = "https://api.whatsapp.com/send?phone=+62 895-1748-3110&text=wl " + inputNama + ""; window.location.href = website; } } });
+</script>
